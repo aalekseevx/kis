@@ -1,0 +1,40 @@
+{
+  "courses": {
+    "C++": {
+      "level": 2,
+      "priority": 5,
+      "deps": [
+        ["DevOps", "Java", ["SoftSkill", "HardSkill"]]
+      ]
+    },
+    "DevOps": {
+      "level": 2,
+      "priority": 10,
+      "deps": [
+      ]
+    },
+    "Kek": {
+      "level": 1,
+      "priority": 0,
+      "deps": [
+        "SoftSkill"
+      ]
+    },
+    "SoftSkill": {
+      "level": 1,
+      "priority": 0,
+      "deps": [
+      ]
+    },
+    "HardSkill": {
+      "level": 1,
+      "priority": 0,
+      "deps": [
+      ]
+    }
+  },
+  "min_courses_per_semester": 3,
+  "chosen_courses": [
+    "C++"
+  ]
+}
